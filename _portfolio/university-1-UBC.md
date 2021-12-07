@@ -4,8 +4,8 @@ excerpt: "The University of British Columbia<br/><img src='/images/ubc-logo.png'
 collection: portfolio
 ---
 
-# The University of British Columbia
-### Vancouver, British Columbia, Canada
+# <i class="fa fa-university" aria-hidden="true"></i> The University of British Columbia
+### <i class="fa fa-map-marker" aria-hidden="true"></i> Vancouver, British Columbia, Canada
 
 ## Education
 #### Sep 2019 – Present

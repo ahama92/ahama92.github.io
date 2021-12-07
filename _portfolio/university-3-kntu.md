@@ -4,7 +4,7 @@ excerpt: "K. N. Toosi University of Technology<br/><img src='/images/kntu-logo.p
 collection: portfolio
 ---
 
-# K. N. Toosi University of Technology
+# <i class="fa fa-university" aria-hidden="true"></i> K. N. Toosi University of Technology
 ### Tehran, Iran
 
 ## Education
