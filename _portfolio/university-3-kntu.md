@@ -1,6 +1,6 @@
 ---
 title: "Bachelor of Science (B.Sc.)"
-excerpt: "<br/>K. N. Toosi University of Technology<br/><img src='/images/kntu-logo.png'>"
+excerpt: "K. N. Toosi University of Technology<br/><img src='/images/kntu-logo.png'>"
 collection: portfolio
 ---
 
