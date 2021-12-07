@@ -1,6 +1,6 @@
 ---
 title: "The University of British Columbia"
-excerpt: "Ph.D. Research Assistant & Teaching Assistant<br/><img src='/images/ubc-logo.png'>"
+excerpt: "Doctor of Philosophy<br/><img src='/images/ubc-logo.png'>"
 collection: portfolio
 ---
 
@@ -22,5 +22,5 @@ One of the major challenges with Computational Fluid Dynamics has been the stabi
 #### Vancouver, British Columbia, Canada
 
 Teaching assistantship in the following courses,
-- Aerodynamics of Aircraft (2020W1, 2021W1)
+- Aerodynamics of Aircraft / Low Speed Aerodynamics (2020W1, 2021W1)
 - Fluid Dynamics (2020W2)
