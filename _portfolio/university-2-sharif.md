@@ -4,8 +4,8 @@ excerpt: "Sharif University of Technology<br/><img src='/images/sharif-logo.png'
 collection: portfolio
 ---
 
-# <i class="fa fa-graduation-cap" aria-hidden="true"></i> Sharif University of Technology
-# <i class="fa fa-location-arrow" aria-hidden="true"></i> Tehran, Iran
+# Sharif University of Technology
+### Tehran, Iran
 
 ## Education
 #### Sep 2014 – Aug 2016
