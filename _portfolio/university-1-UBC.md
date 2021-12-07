@@ -1,5 +1,5 @@
 ---
-title: "Doctor of Philosophy"
+title: "Doctor of Philosophy (Ph.D.)"
 excerpt: "The University of British Columbia<br/><img src='/images/ubc-logo.png'>"
 collection: portfolio
 ---

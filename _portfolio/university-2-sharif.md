@@ -1,6 +1,6 @@
 ---
-title: "Master of Science"
-excerpt: "<br/>Sharif University of Technology<img src='/images/sharif-logo.png'>"
+title: "Master of Science (M.Sc.)"
+excerpt: "<br/>Sharif University of Technology<br/><img src='/images/sharif-logo.png'>"
 collection: portfolio
 ---
 
