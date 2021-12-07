@@ -5,7 +5,7 @@ collection: portfolio
 ---
 
 # <i class="fa fa-graduation-cap" aria-hidden="true"></i> The University of British Columbia
-### <i class="fa fa-location-arrow" aria-hidden="true"></i> Vancouver, British Columbia, Canada
+## <i class="fa fa-location-arrow" aria-hidden="true"></i> Vancouver, British Columbia, Canada
 
 ## Education
 #### Sep 2019 – Present
