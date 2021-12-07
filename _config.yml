@@ -84,7 +84,9 @@ author:
   avatar           : "ahama.png"
   bio              : "Data Science, Computational Fluid Dynamics, Aerospace & Mechanical Engineering"
   location         : "Vancouver, BC"
+  location_link    : "https://en.wikipedia.org/wiki/Vancouver"
   employer         : "The University of British Columbia"
+  employer_link    : "https://www.ubc.ca/"
   pubmed           :
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=JEblFyIAAAAJ"
   email            : "mohammad.zandsalimy@ubc.ca"
