@@ -4,14 +4,16 @@ excerpt: "<br/>K. N. Toosi University of Technology<br/><img src='/images/kntu-l
 collection: portfolio
 ---
 
+# K. N. Toosi University of Technology
+### Tehran, Iran
+
 ## Education
 #### Sep 2010 – Aug 2014
-#### B.Sc. in Aerospace Engineering
+
+- B.Sc. in Aerospace Engineering
 
 ## Research Assistant
-#### K. N. Toosi University of Technology
 #### Sep 2013 – Aug 2014
-#### Tehran, Iran
 
 - MATLAB program development for the solution of fluid and heat transfer inside a commercial aircraft turbofan engine.
 - Computational solution speed-up utilizing a one-dimensional numerical solution approach.

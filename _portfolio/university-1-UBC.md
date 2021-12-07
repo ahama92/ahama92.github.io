@@ -4,13 +4,16 @@ excerpt: "The University of British Columbia<br/><img src='/images/ubc-logo.png'
 collection: portfolio
 ---
 
+# The University of British Columbia
+### Vancouver, British Columbia, Canada
+
 ## Education
 #### Sep 2019 – Present
-#### Ph.D. in Mechanical Engineering
+
+- Ph.D. in Mechanical Engineering
 
 ## Research Assistant
-#### Sep 2019 – Present
-#### Vancouver, British Columbia, Canada
+#### Sep 2019 - Present
 
 - Ph.D. Research Assistant with ANSLab group.
 - C++ object-oriented software development.
@@ -22,7 +25,6 @@ One of the major challenges with Computational Fluid Dynamics has been the stabi
 
 ## Teaching Assistant
 #### Sep 2020 – Present
-#### Vancouver, British Columbia, Canada
 
 Teaching assistantship in the following courses,
 - Aerodynamics of Aircraft / Low Speed Aerodynamics (2020W1, 2021W1)

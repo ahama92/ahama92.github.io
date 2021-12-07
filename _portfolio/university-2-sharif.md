@@ -4,13 +4,16 @@ excerpt: "<br/>Sharif University of Technology<br/><img src='/images/sharif-logo
 collection: portfolio
 ---
 
+# Sharif University of Technology
+### Tehran, Iran
+
 ## Education
 #### Sep 2014 – Aug 2016
-#### M.Sc. in Aerospace Engineering
+
+- M.Sc. in Aerospace Engineering
 
 ## Research Assistant
 #### Sep 2014 – Aug 2016
-#### Tehran, Iran
 
 - Programming and design of reconfigurable hardware using Vivado Design Suite.
 - Hardware and software acceleration of different computational fluid dynamics problems.
@@ -20,7 +23,6 @@ I utilized Field Programmable Gate Array (FPGA) hardware for the simulation of d
 
 ## Teaching Assistant
 #### 2014 - 2016
-#### Tehran, Iran
 
 Teaching assistantship in the following courses,
 - Low Speed Aerodynamics
