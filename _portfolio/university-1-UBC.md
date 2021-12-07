@@ -1,6 +1,6 @@
 ---
-title: "The University of British Columbia"
-excerpt: "Doctor of Philosophy<br/><img src='/images/ubc-logo.png'>"
+title: "Doctor of Philosophy"
+excerpt: "The University of British Columbia<br/><img src='/images/ubc-logo.png'>"
 collection: portfolio
 ---
 
