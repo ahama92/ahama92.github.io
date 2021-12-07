@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-My name is Mohammad Zandsalimy ([IPA](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet): [mohæmˈmæd ], [Kurdish](https://en.wikipedia.org/wiki/Kurdish_languages): محه&#8202;ممه&#8202;د زه&#8202;ندسه&#8202;لیمی, [Persian](https://en.wikipedia.org/wiki/Persian_language): محمد زندسلیمی).
+My name is Mohammad Zandsalimy ([IPA](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet): [mo.hæm.mæd zænd.sæ.li.mi], [Kurdish](https://en.wikipedia.org/wiki/Kurdish_languages): محه&#8202;ممه&#8202;د زه&#8202;ندسه&#8202;لیمی, [Persian](https://en.wikipedia.org/wiki/Persian_language): محمد زندسلیمی).
 
 A data-driven personal website
 ======
