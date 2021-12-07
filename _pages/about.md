@@ -10,6 +10,8 @@ redirect_from:
 
 My name is Mohammad Zandsalimy ([IPA](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet): [mo.hæm.mæd zænd.sæ.li.mi], [Kurdish](https://en.wikipedia.org/wiki/Kurdish_languages): محه&#8202;ممه&#8202;د زه&#8202;ندسه&#8202;لیمی, [Persian](https://en.wikipedia.org/wiki/Persian_language): محمد زندسلیمی).
 
+I am a Computational Scientist with a Ph.D. in Mechanical Engineering from the University of British Columbia and 10+ years of programming experience in C++, Python, and MATLAB. I am proficient in computational methods in data science, optimization applications, and applied mathematics. My main area of focus is Computational Fluid Dynamics and Machine Learning. For more details of my work please visit the [Projects]() and [Publications](https://ahama92.github.io/publications/) pages.
+
 A data-driven personal website
 ======
 Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
