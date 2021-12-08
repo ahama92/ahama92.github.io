@@ -8,7 +8,7 @@ tags:
   - apps
 ---
 
-## MATLAB Programming
+## This projects displays some of the apps that I have developed in MATLAB.
 I have been utilizing MATLAB as a main tool in different simulation and app development projects including the following.
 
 ## Backgammon
