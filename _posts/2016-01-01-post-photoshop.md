@@ -1,7 +1,7 @@
 ---
 title: 'Photoshop Art'
 date: 2016-01-01
-permalink: /posts/2016/01/photoshop-art/
+permalink: /year-archive/2016/01/photoshop-art/
 tags:
   - photoshop
   - art
@@ -9,7 +9,7 @@ tags:
 
 ## This post contains a few of my earlier Photoshop art and photo manipulation projects.
 
-![Alt Text](._posts/2016-01-01-post-photoshop/j1.jpg)
+![Alt Text](./_posts/2016-01-01-post-photoshop/j1.jpg)
 
 ![Alt Text](./2016-01-01-post-photoshop/j2.jpg)
 
