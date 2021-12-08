@@ -9,10 +9,12 @@ tags:
 
 ## This post contains a few of my earlier Photoshop art and photo manipulation projects.
 
-![Alt Text](https://myoctocat.com/assets/images/base-octocat.svg)
+![](/images/2016-01-01-post-photoshop/j1.jpg)
 
-![Alt Text](https://ahama92.github.io/ahama92/_posts/2016-01-01-post-photoshop/j3.jpg)
+![](/images/2016-01-01-post-photoshop/j2.jpg)
 
-![Alt Text](/_posts/2016-01-01-post-photoshop/j4.jpg)
+![](/images/2016-01-01-post-photoshop/j3.jpg)
 
-![Alt Text](/images/ahama.png)
+![](/images/2016-01-01-post-photoshop/j4.jpg)
+
+![](/images/2016-01-01-post-photoshop/j5.jpg)
