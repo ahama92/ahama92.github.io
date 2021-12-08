@@ -11,7 +11,7 @@ tags:
 ## Some of my CAD desing projects are presented here.
 
 ### Royal Falcon-511
-This is a two passenger airplane designed based on [Airplane Design](https://www.google.ca/books/edition/_/6dAoSAAACAAJ?hl=en&sa=X&ved=2ahUKEwiBktLNuuTxAhVRuZ4KHa8CBkwQ7_IDegQICBAC) by Jan Roskam.
+This is a two passenger airplane designed based on the [Airplane Design book](https://www.google.ca/books/edition/_/6dAoSAAACAAJ?hl=en&sa=X&ved=2ahUKEwiBktLNuuTxAhVRuZ4KHa8CBkwQ7_IDegQICBAC) by Jan Roskam.
 
 ![](/images/2016-03-01-post-solidworks/d4.jpg)
 
