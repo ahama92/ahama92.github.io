@@ -21,7 +21,7 @@ This is a device designed for separating paper, aluminum, glass and plastic garb
 ![](/images/2016-03-01-post-solidworks/d1.jpg)
 
 ###  Stem Cell Research
-This device is used during stem cell research and is utilized as a controlled culture container.
+This device is used during stem cell research and is utilized as a controlled culture environment.
 
 ![](/images/2016-03-01-post-solidworks/d2.jpg)
 
