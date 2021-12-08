@@ -1,7 +1,7 @@
 ---
 title: 'Photoshop Art'
 date: 2016-01-01
-permalink: /year-archive/2016/01/photoshop-art/
+permalink: /posts/2016/01/photoshop-art/
 tags:
   - photoshop
   - art
