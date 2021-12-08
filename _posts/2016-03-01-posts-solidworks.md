@@ -1,7 +1,7 @@
 ---
 title: 'CAD Projects'
-date: 2016-03-1
-permalink: /posts/2012/08/cad-projects/
+date: 2016-03-01
+permalink: /posts/2016/03/cad-projects/
 tags:
   - CAD
   - solidworks
