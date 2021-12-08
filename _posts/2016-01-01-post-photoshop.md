@@ -9,7 +9,7 @@ tags:
 
 ## This post contains a few of my earlier Photoshop art and photo manipulation projects.
 
-![Alt Text](../_posts/2016-01-01-post-photoshop/j1.jpg)
+![Alt Text](/_posts/2016-01-01-post-photoshop/j1.jpg)
 
 ![Alt Text](./2016-01-01-post-photoshop/j2.jpg)
 
