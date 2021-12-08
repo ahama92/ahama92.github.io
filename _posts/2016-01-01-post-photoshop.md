@@ -11,8 +11,8 @@ tags:
 
 ![Alt Text](https://myoctocat.com/assets/images/base-octocat.svg)
 
-![Alt Text](ahama92.github.io/ahama92/_posts/2016-01-01-post-photoshop/j3.jpg)
+![Alt Text](https://ahama92.github.io/ahama92/_posts/2016-01-01-post-photoshop/j3.jpg)
 
 ![Alt Text](/_posts/2016-01-01-post-photoshop/j4.jpg)
 
-![Alt Text](/posts/2016-01-01-post-photoshop/j5.jpg)
+![Alt Text](/images/ahama.png)
