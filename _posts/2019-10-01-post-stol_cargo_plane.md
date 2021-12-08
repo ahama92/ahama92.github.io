@@ -7,3 +7,5 @@ tags:
 ---
 
 <embed src="/images/main.pdf" type="application/pdf">
+
+<iframe src="/images/main.pdf" height="200%"></iframe>
