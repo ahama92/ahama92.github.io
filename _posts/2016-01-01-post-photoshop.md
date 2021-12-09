@@ -7,7 +7,7 @@ tags:
   - art
 ---
 
-## This post contains a few of my earlier Photoshop art and photo manipulation projects.
+## A Number of My Earlier Photoshop Art and Photo Manipulation Projects
 
 ![](/images/2016-01-01-post-photoshop/j1.jpg)
 

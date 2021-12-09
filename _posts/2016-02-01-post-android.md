@@ -8,7 +8,7 @@ tags:
   - apps
 ---
 
-## This post showcases some of my Android app development projects.
+## Showcasing Some of my Android App Development Projects
 
 ## Memory
 This game is based on [Simon game](https://en.wikipedia.org/wiki/Simon_(game)).

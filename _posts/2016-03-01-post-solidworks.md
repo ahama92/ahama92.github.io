@@ -8,7 +8,7 @@ tags:
   - design
 ---
 
-## Some of my CAD desing projects are presented here.
+## CAD Design Projects
 
 I utilize Solidworks as my main tool in 3D design.
 
