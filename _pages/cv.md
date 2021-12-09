@@ -11,9 +11,9 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.Sc. in Aerospace Engineering, K. N. Toosi University of Technology, 2014
+* M.Sc. in Aerospace Engineering, Sharif University of Technology, 2016
+* Ph.D. in Mechanical Engineering, The University of British Columbia, 2023 (expected)
 
 Work experience
 ======
