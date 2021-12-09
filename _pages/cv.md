@@ -22,31 +22,31 @@ Work experience
   * Duties included:
 	* Developed object-oriented software for stability analysis and improvement of different computational methods using C++, Python, and Jenkins.
 	* Created a framework for eigenanalysis of the solution Jacobian and mesh optimization using PETSc and SLEPc, enabling current solvers to achieve stable and more reliable results.
-  * Supervisor: Professor Carl Ollivier-Gooch
+  * Supervisor: [Prof. Carl Ollivier-Gooch](https://mech.ubc.ca/carl-ollivier-gooch/)
   
 * Sep 2019 - Present: Teaching Assistant
   * The University of British Columbia
   * Duties included:
 	* Conducted tutorials, designed and graded assignments, and provided laboratory guidance for courses including Aerodynamics of Aircraft, Fluid Dynamics, and Thermodynamics.
-  * Supervisor: Professor Carl Ollivier-Gooch
+  * Supervisor: [Prof. Carl Ollivier-Gooch](https://mech.ubc.ca/carl-ollivier-gooch/)
   
 * Sep 2014 - Aug 2016: Research Assistant
   * Sharif University of Technology
   * Duties included:
 	* Implemented reconfigurable hardware programming using C++ and Vivado Design Suite for hardware design and acceleration of computational problems.
-  * Supervisor: Doctor Abbas Ebrahimi
+  * Supervisor: [Dr. Abbas Ebrahimi](http://ae.sharif.edu/~portal/faculty/1286515506)
   
 * Sep 2014 - Aug 2016: Teaching Assistant
   * Sharif University of Technology
   * Duties included:
 	* Conducted tutorials, designed and graded assignments, and provided laboratory guidance for courses including  Computer Programming, Computational Fluid Dynamics, Computer Aided Design, and Seminar.
-  * Supervisor: Doctor Abbas Ebrahimi
+  * Supervisor: [Dr. Abbas Ebrahimi](http://ae.sharif.edu/~portal/faculty/1286515506)
   
 * Sep 2013 - Aug 2014: Research Assistant
   * K. N. Toosi University of Technology
   * Duties included:
 	* Developed MATLAB software for computational speed-up of fluid flow and heat transfer simulations.
-  * Supervisor: Doctor Reza Ebrahimi
+  * Supervisor: [Dr. Reza Ebrahimi](https://wp.kntu.ac.ir/rebrahimi/)
   
 Skills
 ======
