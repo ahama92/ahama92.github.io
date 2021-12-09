@@ -6,6 +6,4 @@ tags:
   - stol
 ---
 
-<embed src="/images/main.pdf" type="application/pdf" height="200%" width="100%">
-
-<iframe src="/images/main.pdf" height="200%" width="100%"></iframe>
+<embed src="/images/main.pdf" type="application/pdf" height="100%" width="100%">
