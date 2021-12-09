@@ -1,7 +1,7 @@
 ---
 title: 'STOL Cargo Plane'
 date: 2019-11-22
-permalink: /posts/2019/10/stol-cargo-plane/
+permalink: /posts/2019/11/stol-cargo-plane/
 tags:
   - stol
   - cargo
