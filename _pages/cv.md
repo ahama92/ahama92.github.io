@@ -17,15 +17,40 @@ Education
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Sep 2019 - Present: Research Assistant
+  * The University of British Columbia
+  * Duties included:
+	* Developed object-oriented software for stability analysis and improvement of different computational methods using C++, Python, and Jenkins.
+	* Created a framework for eigenanalysis of the solution Jacobian and mesh optimization using PETSc and SLEPc, enabling current solvers to achieve stable and more reliable results.
+  * Supervisor: Professor Carl Ollivier-Gooch
+  
+* Sep 2019 - Present: Teaching Assistant
+  * The University of British Columbia
+  * Duties included:
+	* Conducted tutorials, designed and graded assignments, and provided laboratory guidance for courses including Aerodynamics of Aircraft, Fluid Dynamics, and Thermodynamics.
+  * Supervisor: Professor Carl Ollivier-Gooch
 
 * Fall 2015: Research Assistant
   * Github University
   * Duties included: Merging pull requests
   * Supervisor: Professor Hub
+  
+
+    - role: Research Assistant
+      time: Sep 2014 - Aug 2016
+      company: Sharif University of Technology, Tehran, Iran
+      details: |
+        - Implemented reconfigurable hardware programming using C++ and Vivado Design Suite for hardware design and acceleration of computational problems.
+    - role: Teaching Assistant
+      time: Sep 2014 - Aug 2016
+      company: Sharif University of Technology, Tehran, Iran
+      details: |
+        - Conducted tutorials, designed and graded assignments, and provided laboratory guidance for courses including  Computer Programming, Computational Fluid Dynamics, Computer Aided Design, and Seminar.
+    - role: Research Assistant
+      time: Sep 2013 - Aug 2014
+      company: Khajeh Nasir Toosi University of Technology, Tehran, Iran
+      details: |
+        - Developed MATLAB software for computational speed-up of fluid and heat transfer simulation.
   
 Skills
 ======
@@ -56,4 +81,10 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Undergraduate and graduate course teaching and mentoring
+
+Languages
+======
+* English
+* Kurdish
+* Persian
