@@ -60,6 +60,8 @@ Skills
   * Linux
   * Git
   * Project Jupyter
+  * LaTeX
+  * Markdown
 * Software
   * SolidWorks
   * Tecplot
