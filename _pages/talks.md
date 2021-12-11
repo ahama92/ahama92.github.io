@@ -1,11 +1,9 @@
 ---
 layout: archive
-title: "Talks and Presentations"
+title: "Talks and presentations"
 permalink: /talks/
 author_profile: true
 ---
-
-# Under Construction :construction:
 
 {% if site.talkmap_link == true %}
 
