@@ -1,3 +1,12 @@
+---
+title: 'asdfadfadfadsf'
+date: 2016-01-01
+permalink: /posts/2016/01/dsfasdfasdfadsfads-art/
+tags:
+  - photoshop
+  - art
+---
+
 {
  "cells": [
   {
