@@ -72,12 +72,14 @@ Publications
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
+{% if false %}<!-- AHAMA I am adding this to remove when I have added a section Talks to my website -->
 Talks
 ======
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
+{% endif %}<!-- AHAMA I am adding this to remove when I have added a section Talks to my website -->
   
 Teaching
 ======
