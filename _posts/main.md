@@ -1,12 +1,10 @@
 ---
 title: 'Testing'
-date: 2022-01-01
-permalink: /posts/2016/01/testing/
+date: 2022-10-01
+permalink: /posts/2022/01/testing/
 tags:
   - photoshop
   - art
-bibliography:
-- 'document.bib'
 ---
 
 ![image](root/ubc.png){width="20%"} \
