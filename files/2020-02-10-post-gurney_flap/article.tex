@@ -1,0 +1,519 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Stylish Article
+% LaTeX Template
+% Version 2.1 (1/10/15)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Mathias Legrand (legrand.mathias@gmail.com)
+% With extensive modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[fleqn,10pt]{SelfArx} % Document font size and equations flushed left
+
+\usepackage[english]{babel} % Specify a different language here - english by default
+\usepackage{placeins}
+\usepackage{lipsum} % Required to insert dummy text. To be removed otherwise
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{mwe}
+\usepackage{slashbox}
+
+\graphicspath{{figures/}}
+
+
+%----------------------------------------------------------------------------------------
+%	COLUMNS
+%----------------------------------------------------------------------------------------
+
+\setlength{\columnsep}{0.55cm} % Distance between the two columns of text
+\setlength{\fboxrule}{0.75pt} % Width of the border around the abstract
+
+%----------------------------------------------------------------------------------------
+%	COLORS
+%----------------------------------------------------------------------------------------
+
+\definecolor{color1}{RGB}{0,0,100} % Color of the article title and sections
+\definecolor{color2}{RGB}{0,20,20} % Color of the boxes behind the abstract and headings
+
+%----------------------------------------------------------------------------------------
+%	HYPERLINKS
+%----------------------------------------------------------------------------------------
+
+\usepackage{hyperref} % Required for hyperlinks
+\hypersetup{hidelinks,colorlinks,breaklinks=true,urlcolor=color2,citecolor=color1,linkcolor=color1,bookmarksopen=false,pdftitle={Title},pdfauthor={Author}}
+
+%----------------------------------------------------------------------------------------
+%	ARTICLE INFORMATION
+%----------------------------------------------------------------------------------------
+
+\JournalInfo{Journal, Vol. XXI, No. 1, 1-5, 2020} % Journal information
+\Archive{DOI xxxxxxxxx} % Additional notes (e.g. copyright, DOI, review/research article)
+
+\PaperTitle{The Active Flow Control Over the Trailing Edge of a Symmetrical Airfoil Using Plasma Actuators} % Article title
+
+\Authors{Mohammad Zandsalimy\textsuperscript{1}*} % Authors
+\affiliation{\textsuperscript{1}\textit{Department of Mechanical Engineering, The University of British Columbia}}
+\affiliation{*\textbf{Corresponding author}} % Corresponding author
+
+\Keywords{Flow Control, Plasma Actuator, Gurney Flap, Aerodynamic Performance.}
+\newcommand{\keywordname}{Keywords} % Defines the keywords heading name
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT
+%----------------------------------------------------------------------------------------
+
+\Abstract{
+Flow control in a general sense includes performing favorable changes in the fluid flow for specific goals, such as reducing drag force, increasing lift force or the ratio of lift to drag, as well as preventing or postponement of flow separation. There are few studies conducted on the airfoil performance increment by active control of the flow at the trailing edge. Gurney flap is a lift increasing device for which experimental studies show a considerable increment in the airfoil lift force. In the present work, the feasibility of using plasma actuators for producing artificial micro-tab and Gurney flaps has been studied experimentally. A plasma actuator consists of two electrodes and a dielectric layer. The high potential difference between the two electrodes causes the ionization of the nearby air. This creates a flow jet in the vicinity of the surface flowing downstream. The most important advantages of plasma actuators compared to other flow control methods include; simplicity, performing at different frequencies, fast response times for unstable methods, low weight, and the ability to install on different geometries. Choosing different test scenarios, in terms of configuration, actuator position, and the number of actuators, we have studied aerodynamic performance improvement of an airfoil. The tests are conducted on a NACA 0015 airfoil at Reynolds numbers of about $10^5$ at different angles of attack of 0 to 15 degrees. The static pressure on the airfoil surface is measured to evaluate the aerodynamic performance. Furthermore, flow visualization has been conducted utilizing a smoke generator and a powerful light source in the form of a laser. This helps with a better understanding of the flow evolution and patterns at the trailing edge of the airfoil.
+}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\flushbottom % Makes all text pages the same height
+
+\maketitle % Print the title and abstract box
+
+\tableofcontents % Print the contents section
+
+\thispagestyle{empty} % Removes page numbering from the first page
+
+%----------------------------------------------------------------------------------------
+%	ARTICLE CONTENTS
+%----------------------------------------------------------------------------------------
+
+\section{Introduction}
+Aerodynamics studies the motion of air and its interaction with solid objects, such as  airplane wings. There are three main methodologies of analysis in aerodynamics; analytical, numerical, and experimental. The analytical procedures are limited in the determination of some parameters such as maximum lift coefficient, characteristics after stall, determination of zero  lift angle of attack, and pitching moment. As a result, numerical and experimental methods are utilized more often. Both of these methodologies have specific advantages and limitations. With the recent advancement in computer technologies, the numerical methods have been utilized vastly. However, conducting experimental studies are essential and are required for data validation. Experiments on airfoils are conducted in wind tunnels to study the fluid flow over the airfoil and resulting aerodynamic forces.
+
+The fluid flow over objects can be studied experimentally in two ways:
+\begin{itemize}
+\item Moving the object in stationary fluid such as free flight tests.
+\item Having the object (or a scaled model of it) stationary and flowing air over it.
+\end{itemize}
+In the second method, wind tunnels can be used for a highly successful experimental testing of the flow properties and force measurements. Using wind tunnels is an essential part of the design process of many industrial and aerial applications. Wind tunnel produces a controlled airflow over the object to be studied and as a result, the required information can be measured in a controlled environment. Utilizing wind tunnels is one of the most beneficial methods of experimental testing compared to other methods. Other advantages of such facilities include; high safety, low cost, and convenience.
+
+Airplane wing performance has a substantial effect on not only the runway length, approach speed, climb rate, cargo capacity, and operation range but also the noise and emission levels. The wing performance is often degraded by flow separation, which strongly depends on the aerodynamic design of the airfoil profile. Furthermore, non-aerodynamic constraints are often in conflict with aerodynamic restrictions, and flow control is required to overcome such difficulties. Techniques that have been developed to manipulate the boundary layer, either to increase  lift or decrease  drag and separation delay are classified under the general heading of flow control. Flow control methods include passive and active methods. Passive methods require no auxiliary power and no control loop, and active methods require energy expenditure and often control loops. Passive techniques include geometric shaping, the use of vortex generators, and the placement of longitudinal grooves or riblets on airfoil surfaces \cite{Shehata2017}. Examples of active flow control methods include surface vibration, active external electromagnetic forces, steady suction or blowing, unsteady suction or blowing, and the use of synthetic jets \cite{Bons2018}.
+
+Take off and landing phases of any airplane flight mission are the riskiest  in the whole flight envelope according to different flight regulations. If an airplane is able to successfully pass take off and landing phases, it can easily overcome other parts of the mission. A device that is always used in the critical parts of take off and landing on airplanes is the flap. As a result, designing flaps with high performance and a low chance of failure is very important. Flaps are designed to increase the effective camber of the wing section which results in an increment of the lift force in conditions that might be required. The flaps that are installed at the trailing edge of the wing have the highest effect on the lift increment. On the other hand, flaps that are installed in the leading edge of wings require a complicated mechanical system which results in high manufacturing and maintenance costs. Further, leading edge flaps tend to be heavier compared to trailing edge flaps. An efficient lift increment device can help increase the payload and the range of an airplane. It also has a positive effect on the rate of climb as well as the take off speed.
+
+Gurney flap or wickerbill is a small tab projecting from the trailing edge of a wing. Typically, it is set at a right angle to the bottom surface of the airfoil and projects about 1 to 2\% of the wing chord. The device operates by increasing pressure on the pressure side, decreasing pressure on the suction side, and helping the boundary layer flow stay attached all the way to the trailing edge on the suction side of the airfoil \cite{Meena2018}. This device is named after its inventor, American race car driver Daniel Gurney. A schematic view of a typical Gurney flap and the vortexes formed is presented in Fig. \ref{fig_Gurney_flap_1}. This device will increase the lift as well as drag force. Gurney flaps have a simple geometry and are light weight and easy to manufacture and maintain. However, there are negative effects associated with this device as well, including the increment in drag force. The effect of Gurney flap at high angles of attack can be seen in Fig. \ref{fig_gurney_effect_1}. This effect includes the attachment of flow on the suction side of the airfoil and stall control.
+\begin{figure}[ht]
+\centering
+\includegraphics[width=\linewidth]{gurney_flap.jpg}
+\caption{A schematic view of Gurney flap \cite{Joshi2016}}
+\label{fig_Gurney_flap_1}
+\end{figure}
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.5\linewidth]{gurneyflap.jpg}
+\caption{The effect of Gurney flap on a racing car wing at high angles of attack}
+\label{fig_gurney_effect_1}
+\end{figure}
+
+
+
+Plasma actuators are well known active flow control devices that have been utilized in different experimental scenarios. The basic operation of such devices utilizes a high power electrical field to ionize the nearby fluid and to move the ionized particles. This process results in the neutral particles in the flow to move accordingly. As a result, a micro jet is formed near the surface of the object with a velocity of a few meters per second \cite{Zandsalimy2018}. There are different kinds of plasma actuators, based on their configurations, such as dielectric barrier discharge (DBD) plasma actuator, surface corona discharge actuator, and plasma spark-jet actuator. Among these, the DBD plasma actuator is the most frequently used technique for flow control. A typical DBD plasma actuator consists of an exposed electrode and an embedded (enclosed) electrode, separated by a dielectric layer. When the electrodes are supplied with high voltage and frequency, the air over the embedded electrode is ionized and thus a wall jet forms. The two main features of the DBD plasma actuator are that it can induce a wall jet and a starting vortex \cite{whalley2012starting}. When the velocity profile is normalized, the flow induced by the DBD plasma actuator shows the wall jet characteristics. This is consistent with the laminar solution. Accompanying the wall jet, the flow separates from the wall and rolls up into a vortex. This vortex forms when the actuator is turned on, thus it is usually called the starting vortex. If the plasma actuator is controlled in a periodic manner, the wall jet and the starting vortex can also be induced periodically. It is easy to implement unsteady flow control by using the DBD plasma actuator. A schematic view of such actuators is presented in Fig. \ref{fig_plasma_actuator_1}. Such devices have been mainly utilized in low flow speed applications, however, they have also been used in controlling the unsteady modes of boundary layers in supersonic flows \cite{Joussot2016}.
+\begin{figure}[ht]\centering
+\includegraphics[width=\linewidth]{plasma.png}
+\caption{A schematic view of a typical DBD plasma actuator}
+\label{fig_plasma_actuator_1}
+\end{figure}
+
+Gurney flaps are installed permanently on the wing which might cause negative effects when not needed. As a result having a system with the ability to be turned off when not needed, such as plasma actuators, can be beneficial. In the present study, plasma actuators are utilized to simulate the effect of Gurney flaps on the airfoil. Plasma actuators will be installed on the pressure side of the trailing edge to produce an upstream flow to mimic the effect of Gurney flaps. This way, the effective camber of the airfoil will increase and the same effects will be observable. In the following, we will have a quick look at the previous studies on Gurney flaps and plasma actuators.
+
+\subsection{History}
+Plasma is a state of matter and it is very common in nature. Lightning, aurora, fluorescent and neon lights, and ionization of the exhaust gases of a jet engine all produce plasma. In this state of matter, there is a combination of neutral particles as well as positive and negative ions. The density of positive and negative charges in the matter is almost equal and as a result, the whole domain tends to be neutral in charge \cite{shuryak1978theory}. This state includes hot and cold plasma. hot plasma is when almost all of the particles are ionized while cold plasma is when only a portion of the particles are ionized and the interaction between neutral and ionized particles still exists. Cold plasma is usually utilized in the industry. Plasma formed over dielectrics in our system is also of the cold type.
+
+Plasma actuators were barely utilized as a feng.jpgmeans of flow control before the year 2000. One of the first articles to be published on flow control used the simplest type of plasma actuators, known as the corona. Jacob et al. \cite{jacob2004boundary} studied the effect of plasma actuators on the boundary layer flow in 2004. They focused on velocity, frequency, and excitation power parameters and utilized PIV method for flow visualization. They showed that the fluid accelerates near the plasma actuator region and a jet forms. Jacob et al. in 2005 \cite{jacob2005control} utilized plasma actuators to actively control the fluid flow. In these experiments, the stagnation flow is excited with plasma actuators. They showed that there are oscillations in the flow characteristics formed from the presence of a plasma actuator. In such conditions, the effects of oscillations can be seen in low speed flows as well which results in a decrement in the displacement and momentum thickness of the boundary layer.
+
+Post et al. \cite{post2005flow} in 2005, experimentally studied the performance of plasma actuators in the control of recirculation flow in different applications such as controlling the dynamic stall on an oscillating airfoil, controlling the detached flow over the leading edge, and flow control over low pressure turbine blades. Ramakumar \cite{ramakumar2005flow} in 2005, studied the plasma actuators as an effective means of flow control. They experimentally studied the induced velocity profile over various input signal modes and frequencies to the actuators. The resulting velocity profiles are similar, however, the fluid structures formed are different in each case. He et al. cite{he2009plasma} utilized the body forces resulting from plasma actuators to control high Reynolds flows. The goal was to increase the performance of plasma actuators in high speed flows. They experimentally studied the effects of dielectric thickness and material, the exposed electrode geometry, voltage wave shape, and formation of a number of actuators together. They concluded that thick dielectrics with lower dielectric constant produce body forces with an order of magnitude higher than Kapton.
+
+In 2011 Sekimoto et al. \cite{sekimoto2011experimental} studied the effect of excitation frequency of plasma actuators on flow control over a NACA 0015 at moderately high angles of attack. Nati et al. \cite{nati2013control} in 2013 experimentally studied the flow control over the trailing edge of a symmetrical airfoil using plasma actuators. They installed plasma actuators on the trailing edge of the airfoil. Such configuration eliminated the complexities and weight increments when utilizing conventional jet producers for flow return control. In their work, they utilized lift and drag forces directly from load cells and PIV for flow visualization. The initial results included a 0.1 increment in the lift coefficient at low Reynolds numbers. They also studied the effect of actuator location and length.
+
+In 2015 Feng et al. \cite{feng2015flow} experimentally studied plasma actuators at the trailing edge of airfoils as virtual Gurney flaps. They installed the actuators in an upstream configuration (opposite to the fluid flow) and simulated the effect of Gurney back flow on a NACA 0012 airfoil. They showed that in angles of attack between 4-8 degrees, plasma actuators can have a considerable effect on the lift coefficient increment. Fig. \ref{fig_feng_1} shows a schematic view of their plasma actuator configuration and the resulting jet direction on the pressure side of the airfoil. In 2017 Feng et al. \cite{feng2017lift} utilized two DBD plasma actuators in an opposing configuration on the bottom surface of the trailing edge of a NACA0015. This configuration also helped to simulate a Gurney flap effect and increased the effective chord and as a result increased the lift coefficient. Cooney et al. \cite{cooney2016development} utilized plasma actuators to increase the performance of a 20 kW wind turbine. They presented the design procedure and predicted the performance increment of the final configuration.  Moreau et al. \cite{moreau2016control} in 2016, studied the turbulent flow on a NACA 0015 airfoil at 11.5 degrees angle of attack. They were able to control the separated flow from the half chord. They showed that the best placement for controlling flow over the upper surface of that airfoil is at 18\% chord. In 2017 Wang et al. \cite{wang2017novel} utilized saw tooth configuration of plasma actuators for flow control over an airfoil. They were able to increase the stall angle of attack by about 5 degrees and increased the maximum lift coefficient for about 9\%.
+\begin{figure*}[ht]\centering
+\includegraphics[width=.8\linewidth]{feng.jpg}
+\caption{Plasma actuator configuration on NACA 0012 airfoil \cite{feng2015flow}.}
+\label{fig_feng_1}
+\end{figure*}
+
+\subsection{Goal}
+The experimental investigation of fluid flow over the top surface of airfoils and flow control has been the main idea behind many previous studies. The investigation of flow control over the trailing edge of airfoils peaked in the '80s and several articles were published on this subject. In the present article, the fluid flow over the trailing edge of a NACA 0015 airfoil is experimentally investigated and controlled using plasma actuators. The main idea is to simulate the Gurney flap effect on the pressure side of the airfoil. Also, the behavior of the flow will be investigated by flow visualization. The experiments will be conducted at Reynolds numbers of $10^5$ and angles of attack of 0-12 degrees. Initially, the fluid flow over the trailing edge is studied in the clean case (without plasma), and then the effects of plasma actuators in different configurations are investigated on the aerodynamic performance of the airfoil.
+
+
+
+\section{Experiment Setup}
+
+\subsection{Experimental requirements}
+The test facility and lab equipment required in the present article are listed below:
+\begin{enumerate}
+\item Low speed wind tunnel with an open circuit configuration.
+\item NACA 0015 airfoil model which has to be manufactured with a few considerations in mind.
+\item Copper electrodes.
+\item Kapton dielectric tape.
+\item Power supply module for the DBD plasma actuator with a heavy duty transformer.
+\item Data acquisition system including multimeters and digital oscilloscopes.
+\item pressure transducer system.
+\item Flow visualization module (using smoke)
+\end{enumerate}
+
+
+\subsection{Test scenario}
+Before any experimental tests on the plasma actuators, we need to test the fluid flow over the clean airfoil (without any modifications including adding plasma actuators). The test procedure can be summarized as follows:
+\begin{enumerate}
+\item Study the fluid flow over NACA 0015 airfoil in clean conditions. Measure the pressure distribution and aerodynamic force coefficients and compare them to the previous studies.
+\item Study the characteristics and flow patterns.
+\item Install plasma actuators at appropriate locations on the airfoil surface (using the results from the previous sections).
+\item Flow visualization and the study of flow patterns and the effect of plasma actuators.
+\end{enumerate}
+
+\subsection{Wind Tunnel}
+Our experiments include flow visualization, as a result, we will need an open circuit wind tunnel. The flow visualization is done through the use of smoke and laser. The Boundary Layer Wind Tunnel (BLWT) at the University of British Columbia is an open circuit wind tunnel approximately 30m in length. It is used primarily for the boundary layer, architectural, and wind-engineering studies, as well as fundamental work. In the past, the BLWT has been used to model the aerodynamics of sports equipment, forest clear-cutting patterns, marine propellers, submarines, and local Vancouver landmarks BC Place and the Provincial Law Courts. The test section of the wind tunnel is 1.6 m high, 2.5 m wide, and 23.6 m long. Further, the speed range is about 5-35 m/s which is ideal for our tests.
+
+\subsection{Airfoil Model}
+The material for our model should be selected carefully. The temperature of the electrodes of the plasma actuator can get hot and as a result of that, no changes in the airfoil geometry should happen.  Polyurethane Model Board M 1300 is a high density board and block material with especially high compression, flexural, and abrasion resistance. It has good resistance to heat as well which makes it perfect for our case. At this density, it is tough to hand carve but can be accurately machined using manual or CNC machine tools. This material can be purchased in $1500\times 500 \times 100$ mm sheets in online websites such as www.easycomposites.com. Key characteristics of this material can be summarized as follows:
+\begin{itemize}
+\item Excellent machining characteristics
+\item High dimensional stability
+\item High temperature and chemical resistance
+\item Good compressive strength
+\item Paints/seals easily
+\end{itemize}
+
+The airfoils to be tested have a span of 1000 mm and a chord of 300 mm. We need to have a few models in our project because the tests should be conducted on clean airfoils and also with plasma actuators. Also, there is a chance that the actuators would short circuit and burn the trailing edge of the model. For this reason, we will build two airfoil models for our tests. A model of NACA 0015 airfoil is constructed in Solidworks software. This model should be manufactured using a CNC machine with high precision. A 3-axis CNC machine can do the job which costs around \$40 per hour (excluding the operator salary). Each airfoil model will be a combination of 10 smaller airfoils with a span of 100 mm. After the models are machined, we should finish them with sandpaper to get a smoother surface. The average surface roughness of about 0.05 $\mu$m is acceptable.
+
+To measure the static pressure on the surface of airfoils, we need to drill several holes perpendicular to the surface. A very important matter to consider here is the structural limits of the model. The number of holes in the model cannot be more than a certain number. Also, the holes cannot be installed to close together, to prevent structural failure. Furthermore, we should be careful and think ahead of how the tubing for pressure readings is going to be installed. 23 pressure taps will be drilled into the upper surface of the airfoil and 17 on the bottom surface. Just be careful to drill exactly perpendicular to the surface. A zig-zag configuration is selected to minimize the effect of upstream pressure taps on downstream pressure readings. These pressure taps have a diameter of 0.6 mm and are arranged in a zig-zag manner in the half span of the model. The maximum blockage of the flow inside the wind tunnel considering the variation in angles of attack is about 4\%. Table \ref{table_pressure_tap_1} shows the location of each pressure tap on the airfoil model. These points are plotted in Fig. \ref{fig_pressure_tap_1}. The flexible tubing for pressure taps should be also carefully installed. Altafluor 480 UHP PFA is selected for the project which shows good thermal resistance and bending behavior.
+\begin{figure}[ht]\centering
+\includegraphics[width=\linewidth]{airfoil.eps}
+\caption{Pressure tap locations on the model}
+\label{fig_pressure_tap_1}
+\end{figure}
+
+\subsection{Pressure Reading}
+For pressure measurement on the airfoil surface, a pressure transducer will be used. DC005NDC4 pressure sensors manufactured by Honeywell company will be used in our project which has an accuracy of $\pm 0.05\%$. A 16-bit data acquisition system is selected, PXIe-6361 board manufactured by National Instruments. The PXIe‑6361 offers analog I/O, digital I/O, and four 32‑bit counter/timers for PWM, encoder, frequency, event counting, and more. The device delivers high-performance functionality leveraging the high-throughput PCI Express bus and multicore-optimized driver and application software. Onboard NI‑STC3 timing and synchronization technology delivers advanced timing functionality, including independent analog and digital timing engines and retriggerable measurement tasks. The included NI‑DAQmx driver and configuration utility simplifies configuration and measurements. A schematic view of the data acquisition system is shown in Fig. \ref{fig_daq_1}. LabVIEW software is utilized for the interface with a PC system.
+\begin{figure}[ht]\centering
+\includegraphics[width=\linewidth]{Data-Acquisition-System.jpg}
+\caption{Schematic of data acquisition system.}
+\label{fig_daq_1}
+\end{figure}
+
+The data acquisition period is 10 seconds and a sampling frequency of 1 kiloHertz is used. This frequency is at least twice as higher as the natural frequencies present inside the flow. To make sure that the data acquisition is correct, at least 5 repetitions of measurements are done for each test case. Aerodynamic coefficients are calculated by the integration of pressure distribution. Uncertainty of measurements for aerodynamic coefficients are calculated according to the data acquisition system and test conditions and reported in the following.
+\begin{itemize}
+\item Pressure coefficient $C_p=\overline{C_p} \pm 0.01$
+\item Lift coefficient $C_L=\overline{C_L} \pm 0.002$
+\item Drag coefficient $C_D=\overline{C_D} \pm 0.002$
+\end{itemize}
+These coefficients are defined as:
+\begin{equation}
+C_p=\dfrac{P-P_{\infty}}{0.2\rho U_{\infty}^2}
+\end{equation}
+\begin{equation}
+C_L=\dfrac{L}{0.2\rho U_{\infty}^2 c}
+\end{equation}
+\begin{equation}
+C_D=\dfrac{D}{0.2\rho U_{\infty}^2 c}
+\end{equation}
+In which, $P$ is the average pressure on the model surface, $P_{\infty}$ is the static pressure of far field, $L$ is the lift force, $D$ is the pressure drag force, $\rho$ is the density of air, $U_{\infty}$ is the free stream velocity, and c is the chord of the model.
+
+\subsection{Plasma Actuator}
+The details of the plasma actuator and test calibrations including, plasma power supply, data measurement methods, electrical and mechanical measurement systems, dielectric specifications, and electrode configuration are explained in this section. The nominal properties of the power supply are presented as:
+\begin{itemize}
+\item PVM500-1000 high voltage  alternating current (HVAC) power supply
+\item Maximum input voltage 7 kilo Volts
+\item Sin signal shape with a maximum frequency of 30 kHz
+\item Maximum excitation frequency of 1 kHz
+\item Maximum output power of 1 kW
+\end{itemize}
+
+The electrical parameters that are measured include the input voltage, excitation frequency, carrier wave frequency, and duty cycle percentage which are all controllable through the control module of the power supply. During the tests, the duty cycle percentage and input voltage amplitude are measured using the output connections of oscillator and amplifier to a digital oscilloscope, respectively. The oscilloscope in use is an Instek GDS-1072-U at 70 MHz bandwidth with 2 Input Channels. Further, the carrier wave and excitation frequencies are measured using two AideTek VC97 digital multi-meters.
+
+The current is measured using a series connection of a multi-meter between the enclosed electrode and ground. For this purpose, a digital true RMS MS8226T multi-meter manufactured by MASTECH is utilized. Further, to calculate the input electrical power of the actuator, first, we need to measure the input voltage and average current. The power consumption of a sim wave voltage can be calculated using Eq. \ref{eq_w_11_1} in which $V_{pp}$ is the peak to peak voltage.. DBD plasma actuator power is usually reported per electrode length (W/cm).
+\begin{equation}
+\label{eq_w_11_1}
+W=V_{\text{RMS}} I_{\text{RMS}}\cos(\phi)=\left(\dfrac{V_{pp}}{2\sqrt{2}}\right)I_{\text{RMS}}\cos(\phi), \quad (\phi\approx6^{\circ})
+\end{equation}
+
+Kapton is used as the dielectric material for the actuators. Six layers of Kapton tape of 2 mm thickness makes the dielectric part with a maximum voltage throughput of 7 kV/mm and a dielectric constant of 3.4 (at 1 MHz frequency) as in \cite{Feng2012}. Further, copper sheets of 50 $\mu$m thickness are used as plasma electrodes. The length of electrodes is 70 cm with the width of exposed and enclosed electrodes equal to 5 and 15 mm, respectively. The overlapping length of the exposed and enclosed electrodes is 0.
+
+\subsection{Flow visualization}
+One of the most utilized methods of flow visualization around bodies in wind tunnels is using smoke. This method shows the streak lines in the flow and an overall view of the complex behavior of the flow. Streak lines in steady uniform flow, are in fact showing the streamlines. Comparing these lines with the theoretical and numerical simulations can be a proof of correctness. Utilizing smoke visualization requires a few important pieces of equipment including, a wind tunnel with low turbulence intensity, smoke generator machine, smoke injection system, imaging equipment (cameras), and a powerful light source in the form of a laser. The best place for the smoke injection nozzles is upstream of the test section. The 532 nm DPSS laser system (manufactured by Laserglow Technologies) in use has a maximum output power of $3\sim 5$ Watts. A Powell prism lens is used to expand the laser into a sheet.
+
+Smoke is generated with a dry smoke machine burning wild rue and a pressure generator to push the smoke into the test section. The air supply is connected to a pressure regulator and after that a rotameter. This is then connected to a laminar flow meter which is directly connected to the smoke generator. The smokes are discharged into the flow at a similar speed and temperature for the test section flow. A hot wire is used to measure the speed of test section flow which is connected to a hot wire anemometer and data acquisition system.  The Photron Mini WX50 high speed camera use for imaging. This camera is around \$20000 to buy and as a result, it is more logical to rent this unit. A schematic view of the flow visualization system in the wind tunnel is shown in Fig. \ref{fig_Huang2005}.
+
+\section{Test Scenarios and Results}
+The experiments are divided into two main sections;
+\begin{enumerate}
+\item The study of flow over the airfoil without plasma actuators
+\item Flow control over the airfoil with plasma actuators
+\end{enumerate}
+In the first part, the pressure distribution is measured at different angles of attack over the clean airfoil (without plasma actuators) and aerodynamic coefficients are calculated. In the second section, plasma actuators are installed on the airfoil trailing edge at different locations and the effect of plasma excitation is measured.
+
+\subsection{Clean Airfoil}
+These tests are conducted to make sure that the experimental study is accurate enough in the first place. The results can be compared to other experimental data to check the accuracy of the tests and the tools in use. The main goal here is to become familiar with the flow behavior and data validation through pressure distribution and lift coefficient. Again, the tests in this section are conducted on a clean NACA 0015 airfoil at a Reynolds number of $10^5$ (calculated with the chord length and test section velocity). The test section velocity is measured with a hot wire system and recorded. The experiments are conducted in 4 different angles of attack of 0, 5, 10, 15 degrees. The results are presented and compared to \cite{miller2008lift} in Fig. \ref{fig_clea_1}. Five tests are carried out for each case and in total 20 measurements are conducted. The test matrix of Table \ref{table_what_the_fuck_is_this_1} shows the number of data measurements required for each case.
+\begin{table}[hbt]
+\caption{Test matrix shows the number of data measurement for each case.}
+\centering
+\begin{tabular}{|c|c|}
+\hline
+\backslashbox{Angle of Attack}{ Reynolds Number} & $10^5$ \\
+\hline \hline
+0               & 5               \\
+5               & 5               \\
+10              & 5               \\
+15              & 5\\
+\hline
+\end{tabular}
+\label{table_what_the_fuck_is_this_1}
+\end{table}
+
+\subsection{Airfoil with Actuators}
+In this section, first, the effect of the actuator position on the flow is studied. Four test cases are utilized according to Table \ref{table_I_need_sleep_1}. A schematic view of the actuator positions is presented in Fig. \ref{fig_fuck_this_1}. Then, the results are compared and the optimized location of the actuator is selected. Finally, we can use an optimized location for further studies and measurements. The input voltage to the actuators is 6kV (peak to peak) with a carrier wave frequency of 10 kHz.
+\begin{table}[hbt]
+\caption{Pressure tap locations on the airfoil model.}
+\centering
+\begin{tabular}{cc}
+\hline
+Test & Actuator Position [x/c \%]\\
+\hline \hline
+$A_1$ & 96\%\\
+$A_2$ & 87\%\\
+$A_3$ & 78\%\\
+$A_4$ & 96\%\\
+\hline
+\end{tabular}
+\label{table_I_need_sleep_1}
+\end{table}
+\begin{figure}[ht]\centering
+\includegraphics[width=0.9\linewidth]{actuator_position.jpg}
+\caption{Schematic view of four different actuator positions.}
+\label{fig_fuck_this_1}
+\end{figure}
+
+The tests are conducted at free stream velocities of 5, 6, and 7 m/s and angles of attack of 4 and 8 degrees. The pressure distribution is measured over the airfoil surface and the optimized position of the actuator is selected. Five tests are carried out for each case and in total 120 measurements are conducted. These tests show that the best position for the actuator is, in fact, $A_1$ and $A_4$ which have the highest value of lift increment. The results of Kotsonis et al. \cite{kotsonis2014influence} also proves this. The test matrix of Table \ref{table_what_the_fuck_is_this_2} shows the number of data measurements required at each angle of attack. As a result two of these tests will be necessary for two angles of attack of 4 and 8 degrees.
+\begin{table}[hbt]
+\caption{Test matrix shows the number of data measurement for each case at a single angle of attack.}
+\centering
+\begin{tabular}{|c|ccc|}
+\hline
+\backslashbox{Test case}{Free Stream Velocity [m/s]} & 5 & 6 & 7 \\
+\hline \hline
+$A_1$ & 5 & 5 & 5 \\
+$A_2$ & 5 & 5 & 5 \\
+$A_3$ & 5 & 5 & 5 \\
+$A_4$ & 5 & 5 & 5\\
+\hline
+\end{tabular}
+\label{table_what_the_fuck_is_this_2}
+\end{table}
+
+\subsection{Flow Control with Virtual Gurney Flap}
+Two test cases of $A_1$ and $A_4$ are selected o simulate the effects of Gurney flaps on the trailing edge of the airfoil. To prevent confusion a naming scheme can be utilized as: 1) Test case 2) Angle of attack 3) Free stream velocity. The tests are conducted at three different free stream velocities of 5, 6, and 7 m/s and five different angles of attack of 2, 4, 6, 8, 10. Each case is repeated 3 times and in total 45 tests are conducted. The test matrix of Table \ref{table_what_the_fuck_is_this_3} shows the number of data measurements required for each case. The results of lift coefficient change (in \%) for the free stream velocity of 6 m/s, are presented in Table \ref{table_shit_man_1}. As seen in this table $C_L$ can increase up to 8.52\% when using plasma actuators as Gurney flaps.
+\begin{table}[hbt]
+\caption{Test matrix shows the number of data measurement for each case.}
+\centering
+\begin{tabular}{|c|ccc|}
+\hline
+\backslashbox{Angle of Attack}{Free Stream Velocity [m/s]} & 5 & 6 & 7 \\
+\hline \hline
+2  & 3 & 3 & 3 \\
+4  & 3 & 3 & 3 \\
+6  & 3 & 3 & 3 \\
+8  & 3 & 3 & 3 \\
+10 & 3 & 3 & 3\\
+\hline
+\end{tabular}
+\label{table_what_the_fuck_is_this_3}
+\end{table}
+\begin{table}[hbt]
+\caption{Percentage of $C_L$ change for $A_1$ and $A_4$ at 6m/s.}
+\centering
+\begin{tabular}{ccc}
+\hline
+Angle of Attack & $A_1$ & $A_4$  \\
+\hline \hline
+2               & 8.52  & -9.12  \\
+4               & 7.15  & -7.81 \\
+6               & 5.81  & -5.99  \\
+8               & 4.72  & -4.56  \\
+10              & 3.82  & -2.67 \\
+\hline
+\end{tabular}
+\label{table_shit_man_1}
+\end{table}
+
+
+
+\subsection{Flow visualization}
+Flow visualization is conducted at a free stream velocity of 5 and 6 m/s on the clean airfoil as well as case $A_1$. These tests are repeated 5 times each and in total 20 tests are conducted. The test matrix of Table \ref{table_what_the_fuck_is_this_4} shows the number of data measurements required for each case.  The high speed camera records the tests and data are stored. A jet effect is seen when comparing test case $A_1$ to the clean airfoil which is the result of the virtual Gurney flap (by plasma actuator). This increases the effective chord of the model and as a result the lift coefficient increases.
+\begin{table}[hbt]
+\caption{Test matrix shows the number of data measurement for each case.}
+\centering
+\begin{tabular}{|c|cc|}
+\hline
+\backslashbox{Test Case}{Free Stream Velocity [m/s]} & 5 & 6 \\
+\hline \hline
+Clean & 5 & 5 \\
+$A_1$ & 5 & 5\\
+\hline
+\end{tabular}
+\label{table_what_the_fuck_is_this_4}
+\end{table}
+
+\section{Conclusion and Costs}
+The present study focused on the flow around the trailing edge of a NACA 0015 airfoil in the presence of plasma actuators. These actuators are selected to simulate the effects of Gurney flaps at the trailing edge. Such configuration will present the advantages of Gurney flaps including lift coefficient increment when required. On the other hand, despite Gurney flaps, plasma actuators can be turned off while not required which means the permanent presence of Gurney flaps (especially when not required) is cured. Table \ref{teable_shite_costs_1} present an estimation of the costs of the present experimental study. About 200 measurements are conducted in the present study. The setup time should also be considered. The experiments can be completed in 5-6 days at about 30 hours in total. Fig. \ref{fig_fuck_all_you_niggas_1} shows a time schedule to conduct the experiments. Starting from Monday and working full time through Friday the tests can be completed in 5 working days. Post-processing the acquired data will be done by the student after all the tests are done. This process including generating useful plots and graphs, as well as tables can take up to 30 hours. After that, every step of the experiment should be documented with appropriate details and sketches of the setup. The process of documentation and writing related reports can take up to 40 more hours. In total, the work can be expected to be completed in 100 working hours.
+
+\section{Future Studies}
+The following configurations are good test cases for future studies.
+\begin{itemize}
+\item Exciting two plasma actuators on the upper and lower surface of the airfoil at the same time. Changing the input voltage to the actuators at the same time can also be beneficial. Such a configuration can help with a better flow control action.
+\item New configuration of DBD plasma actuator to produce a more powerful jet on the bottom surface of the airfoil. The present study utilizes a plasma actuator combined of a single exposed and enclosed electrode. There are other studies conducted with a different number of electrodes for each actuator. Using such configurations can help to simulate a more powerful effect of Gurney flaps.
+\end{itemize}
+
+
+
+
+
+
+
+
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	REFERENCE LIST
+%----------------------------------------------------------------------------------------
+\phantomsection
+\bibliographystyle{unsrt}
+\bibliography{sample}
+
+%----------------------------------------------------------------------------------------
+
+
+
+\onecolumn
+\clearpage
+\section{Appendix}
+\begin{table}[hbt]
+\caption{Pressure tap locations on the airfoil model.}
+\centering
+\begin{tabular}{|ccc|ccc|}
+\hline
+Upper surface tap no. & X location [mm] & Y location [mm] & Bottom surface tap no. & X location  [mm]& Y location  [mm]\\
+\hline \hline
+0                     & 0          & 0          & 1                      & 2.3        & -5.6       \\
+1                     & 0.4        & 2.3        & 2                      & 6.2        & -9         \\
+2                     & 2.3        & 5.5        & 3                      & 10.7       & -11.5      \\
+3                     & 5.1        & 8.2        & 4                      & 15.6       & -13.6      \\
+4                     & 9.2        & 10.8       & 5                      & 23.9       & -16.1      \\
+5                     & 13.6       & 12.8       & 6                      & 34.9       & -18.5      \\
+6                     & 19.3       & 14.8       & 7                      & 45.4       & -20.1      \\
+7                     & 26.2       & 16.7       & 8                      & 60.1       & -21.5      \\
+8                     & 34.1       & 18.4       & 9                      & 78         & -22.4      \\
+9                     & 42.1       & 19.7       & 10                     & 98.8       & -22.4      \\
+10                    & 50.2       & 20.7       & 11                     & 122.2      & -21.62     \\
+11                    & 59.8       & 22.1       & 12                     & 152.4      & -19.6      \\
+12                    & 70.3       & 22.5       & 13                     & 191.3      & -15.8      \\
+13                    & 102.6      & 22.4       & 14                     & 218.3      & -12.6      \\
+14                    & 122.6      & 21.6       & 15                     & 241.8      & -9.6       \\
+15                    & 144.9      & 20.4       & 16                     & 260        & -6.9       \\
+16                    & 168.3      & 18.3       & 17                     & 273.7      & -4.8       \\
+17                    & 191.4      & 15.2       &                        &            &            \\
+18                    & 213.8      & 13.2       &                        &            &            \\
+19                    & 234        & 10.2       &                        &            &            \\
+20                    & 253.3      & 8          &                        &            &            \\
+21                    & 271.1      & 5.2        &                        &            &            \\
+22                    & 286        & 2.8        &                        &            &            \\
+\hline
+\end{tabular}
+\label{table_pressure_tap_1}
+\end{table}
+
+\begin{figure}[ht]\centering
+\includegraphics[width=.8\linewidth]{Huang2005.jpeg}
+\caption{Schematic view of the flow visualization and testing system.}
+%\caption{Schematic view of the flow visualization system \cite{Huang2005}.}
+\label{fig_Huang2005}
+\end{figure}
+
+\begin{figure}[ht]\centering
+    \centering
+    \begin{subfigure}[b]{0.475\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{a00.jpg}
+        \caption{$\alpha=0.0^{\circ}$}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.475\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{a05.jpg}
+        \caption{$\alpha=5.0^{\circ}$}
+    \end{subfigure}
+    \vskip\baselineskip
+    \begin{subfigure}[b]{0.475\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{a10.jpg}
+        \caption{$\alpha=10.0^{\circ}$}
+    \end{subfigure}
+    \quad
+    \begin{subfigure}[b]{0.475\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{a15.jpg}
+        \caption{$\alpha=15.0^{\circ}$}
+    \end{subfigure}
+    \caption{Pressure distribution over the airfoil surface at different angles of attack \cite{miller2008lift}.}
+    \label{fig_clea_1}
+\end{figure}
+
+\begin{table}[hbt]
+\caption{Cost estimation of the present study.}
+\centering
+\begin{tabular}{cccc}
+\hline
+Description                     & Cost {[}USD{]} & Time in Use {[}h{]} & Cost per Time {[}USD/h{]} \\
+\hline \hline
+Polyurethane Model board M1300  & 1295.4         &                     &                           \\
+CNC two airfoils with 20 parts  & 1500           &                     &                           \\
+Tubing                          & 230            &                     &                           \\
+PXIe-6361 DAQ                   & 2500           &                     &                           \\
+HVAC power supply               & 1000           &                     &                           \\
+GDS-1070-U oscilloscope         & 500            &                     &                           \\
+Digital multi-meter             & 110            &                     &                           \\
+532 nm DPSS laser               & 5000           &                     &                           \\
+Photron Mini WX50 camera rental & 1000           & 5                   & 100                       \\
+Wind tunnel    rental           & 15000          & 30                  & 500                       \\
+Technician                      & 1050            & 30                  & 35   \\
+\hline
+Total                           & 28685          &                     &      \\
+\hline
+\end{tabular}
+\label{teable_shite_costs_1}
+\end{table}
+
+\begin{figure}[ht]\centering
+\includegraphics[width=1.0\linewidth]{Schedule.png}
+\caption{Time schedule for the testing.}
+\label{fig_fuck_all_you_niggas_1}
+\end{figure}
+
+
+
+
+
+
+
+
+
+\end{document}
