@@ -4,7 +4,7 @@ date: 2020-02-24
 permalink: /posts/2020/02/oblique-wing-airplanes/
 tags:
   - oblique wing
-  - airplane
+  - airplane design
   - flight stability
   - stability analysis
 ---
