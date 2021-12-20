@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-[Here is a link to my CV](/files/2020-02-10-post-gurney_flap/article.pdf)
+[Here is a link to my CV](/files/cv/cv.pdf).
 
 Education
 ======
