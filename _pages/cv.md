@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+[Here is a link to my CV](/files/2020-02-10-post-gurney_flap/article.pdf)
+
 Education
 ======
 * B.Sc. in Aerospace Engineering, K. N. Toosi University of Technology, 2014
