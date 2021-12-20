@@ -73,19 +73,19 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-{% if false %}<!-- AHAMA I am adding this to remove when I have added a section Talks to my website -->
+{% if false %}<!-- AHAMA I am adding this to remove when I have added Talks and Teaching sections to my website -->
 Talks
 ======
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
-{% endif %}<!-- AHAMA I am adding this to remove when I have added a section Talks to my website -->
   
 Teaching
 ======
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
+{% endif %}<!-- AHAMA I am adding this to remove when I have added Talks and Teaching sections to my website -->
   
 Service and leadership
 ======
