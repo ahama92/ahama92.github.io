@@ -49,25 +49,6 @@ Work experience
   * Duties included:
 	* Developed MATLAB software for computational speed-up of fluid flow and heat transfer simulations.
   * Supervisor: [Dr. Reza Ebrahimi](https://wp.kntu.ac.ir/rebrahimi/)
-  
-Skills
-======
-* Programming
-  * C++
-  * Python
-  * MATLAB / GNU Octave
-* Tools
-  * Sikit-Learn
-  * Pandas
-  * Linux
-  * Git
-  * Project Jupyter
-  * LaTeX
-  * Markdown
-* Software
-  * SolidWorks
-  * Tecplot
-  * Photoshop
 
 Publications
 ======
