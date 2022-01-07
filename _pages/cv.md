@@ -30,7 +30,6 @@ Work experience
   * The University of British Columbia
   * Duties included:
 	* Conducted tutorials, designed and graded assignments, and provided laboratory guidance for courses including Aerodynamics of Aircraft, Fluid Dynamics, and Thermodynamics.
-  * Supervisor: [Prof. Carl Ollivier-Gooch](https://mech.ubc.ca/carl-ollivier-gooch/)
   
 * Sep 2014 - Aug 2016: Research Assistant
   * Sharif University of Technology
@@ -42,7 +41,6 @@ Work experience
   * Sharif University of Technology
   * Duties included:
 	* Conducted tutorials, designed and graded assignments, and provided laboratory guidance for courses including  Computer Programming, Computational Fluid Dynamics, Computer Aided Design, and Seminar.
-  * Supervisor: [Dr. Abbas Ebrahimi](http://ae.sharif.edu/~portal/faculty/1286515506)
   
 * Sep 2013 - Aug 2014: Research Assistant
   * K. N. Toosi University of Technology
