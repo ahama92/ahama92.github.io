@@ -8,8 +8,4 @@ tags:
   - large sparse data
 ---
 
-````{=html}
-```{r, echo=FALSE, results='asis'}
-xfun::file_string('2022-01-07-post-machine-learning-eigenanalysis.html')
-```
-````
+<<insertHTML:[2022-01-07-post-machine-learning-eigenanalysis.html]
