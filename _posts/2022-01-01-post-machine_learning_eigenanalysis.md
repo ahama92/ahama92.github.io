@@ -17,4 +17,4 @@ tags:
   }
 </script>
 
-<iframe src="/files/2022-01-01-post-machine_learning_eigenanalysis/report.html" frameborder="0" scrolling="no" onload="resizeIframe(this)" width="100%"></iframe>
+<iframe src="/files/2022-01-01-post-machine_learning_eigenanalysis/main.html" frameborder="0" scrolling="no" onload="resizeIframe(this)" width="100%"></iframe>
