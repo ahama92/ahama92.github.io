@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head><meta charset="utf-8">
+<head><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>main</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
@@ -13973,24 +13973,24 @@ a.anchor-link {
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>Let's talk about the bitwise operators in python,</p>
 <p><code>&lt;&lt;</code>, <code>&gt;&gt;</code>, <code>&amp;</code>, <code>|</code>, <code>~</code>, <code>^</code>.</p>
-<p>They usually operate on numbers but instead of treating them like a single value, they treat them as a string of bits written in <a href="https://en.wikipedia.org/wiki/Two's_complement">2's complement</a> binary. 2's complement is calculated by inverting the bits and adding 1.</p>
+<p>They usually operate on numbers but instead of treating them like a single value, they treat them as a string of bits written in <a href="https://en.wikipedia.org/wiki/Two&#39;s_complement">2's complement</a> binary. 2's complement is calculated by inverting the bits and adding 1.</p>
 <ul>
 <li>For a list of python operators read <a href="https://www.javatpoint.com/python-operators">this</a>.</li>
 </ul>
-<h3 id="2's-Complement-Binary-form-for-Positive-Integers">2's Complement Binary form for Positive Integers<a class="anchor-link" href="#2's-Complement-Binary-form-for-Positive-Integers">¶</a></h3><p>$
+<h3 id="2's-Complement-Binary-form-for-Positive-Integers">2's Complement Binary form for Positive Integers<a class="anchor-link" href="#2's-Complement-Binary-form-for-Positive-Integers">&#182;</a></h3><p>$
 (2)_{10} = 010 \\
 (5)_{10} = 0101 \\
 (9)_{10} = 01001 \\
 (20)_{10} = 010100
 $</p>
-<h3 id="2's-Complement-Binary-form-for-Negative-Integers">2's Complement Binary form for Negative Integers<a class="anchor-link" href="#2's-Complement-Binary-form-for-Negative-Integers">¶</a></h3><p>A negative integers <code>-x</code> is written in binary as <code>x-1</code> and all the bits complemented. For example, <code>-4</code> is complement(4-1) = <code>complement(3)</code> = <code>...1111111100</code>.</p>
+<h3 id="2's-Complement-Binary-form-for-Negative-Integers">2's Complement Binary form for Negative Integers<a class="anchor-link" href="#2's-Complement-Binary-form-for-Negative-Integers">&#182;</a></h3><p>A negative integers <code>-x</code> is written in binary as <code>x-1</code> and all the bits complemented. For example, <code>-4</code> is complement(4-1) = <code>complement(3)</code> = <code>...1111111100</code>.</p>
 <p>The binary form of negative numbers in written with leading <code>1</code>s instead on <code>0</code>s. Python uses infinite number of bits. For example, -5 is treated by the bitwise operators in python as <code>...111111111011</code>. -4 is treated by the bitwise operators in python as <code>...11111111100</code>.</p>
 
 </div>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Bitwise-Operators">Bitwise Operators<a class="anchor-link" href="#Bitwise-Operators">¶</a></h3><ul>
+<h3 id="Bitwise-Operators">Bitwise Operators<a class="anchor-link" href="#Bitwise-Operators">&#182;</a></h3><ul>
 <li><p><code>x &lt;&lt; y</code></p>
 <p>Returns the bits of <code>x</code> shifted to the left by <code>y</code> places (the new bits on the left are <code>0</code>). The same as <code>x * (2**y)</code>.</p>
 <p>$(11)_{10}$ &lt;&lt; $(3)_{10}$ = 1011 &lt;&lt; $(3)_{10}$ = 1011000</p>
@@ -14001,7 +14001,7 @@ $</p>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [1]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[1]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="mi">11</span>
@@ -14041,7 +14041,7 @@ $</p>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [2]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span><span class="o">*</span><span class="p">(</span><span class="mi">2</span><span class="o">**</span><span class="n">y</span><span class="p">)</span>
@@ -14078,7 +14078,7 @@ $</p>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[3]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">bin</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
@@ -14103,7 +14103,7 @@ $</p>
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>'0b1011'</pre>
+<pre>&#39;0b1011&#39;</pre>
 </div>
 
 </div>
@@ -14115,7 +14115,7 @@ $</p>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [4]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">bin</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
@@ -14140,7 +14140,7 @@ $</p>
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>'0b1011000'</pre>
+<pre>&#39;0b1011000&#39;</pre>
 </div>
 
 </div>
@@ -14152,7 +14152,7 @@ $</p>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">bin</span><span class="p">(</span><span class="n">x</span><span class="o">*</span><span class="p">(</span><span class="mi">2</span><span class="o">**</span><span class="n">y</span><span class="p">))</span>
@@ -14177,7 +14177,7 @@ $</p>
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>'0b1011000'</pre>
+<pre>&#39;0b1011000&#39;</pre>
 </div>
 
 </div>
@@ -14200,7 +14200,7 @@ $</p>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[6]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="n">x</span> <span class="o">&gt;&gt;</span> <span class="n">y</span>
@@ -14238,7 +14238,7 @@ $</p>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">//</span> <span class="p">(</span><span class="mi">2</span><span class="o">**</span><span class="n">y</span><span class="p">)</span>
@@ -14275,7 +14275,7 @@ $</p>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[8]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">bin</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
@@ -14300,7 +14300,7 @@ $</p>
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>'0b1'</pre>
+<pre>&#39;0b1&#39;</pre>
 </div>
 
 </div>
@@ -14312,7 +14312,7 @@ $</p>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [9]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[9]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">bin</span><span class="p">(</span><span class="n">x</span><span class="o">//</span><span class="p">(</span><span class="mi">2</span><span class="o">**</span><span class="n">y</span><span class="p">))</span>
@@ -14337,7 +14337,7 @@ $</p>
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>'0b1'</pre>
+<pre>&#39;0b1&#39;</pre>
 </div>
 
 </div>
@@ -14360,7 +14360,7 @@ $</p>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [10]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[10]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="mi">11</span>
@@ -14400,7 +14400,7 @@ $</p>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [11]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[11]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">bin</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
@@ -14425,7 +14425,7 @@ $</p>
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>'0b11'</pre>
+<pre>&#39;0b11&#39;</pre>
 </div>
 
 </div>
@@ -14448,7 +14448,7 @@ $</p>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [12]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[12]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="n">x</span> <span class="o">|</span> <span class="n">y</span>
@@ -14486,7 +14486,7 @@ $</p>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [13]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[13]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">bin</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
@@ -14511,7 +14511,7 @@ $</p>
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>'0b1111'</pre>
+<pre>&#39;0b1111&#39;</pre>
 </div>
 
 </div>
@@ -14534,7 +14534,7 @@ $</p>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [14]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[14]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="o">~</span><span class="n">x</span>
@@ -14583,7 +14583,7 @@ $</p>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [15]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[15]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="n">x</span> <span class="o">^</span> <span class="n">y</span>
@@ -14618,6 +14618,48 @@ $</p>
 
 </div>
 
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Set-Operations">Set Operations<a class="anchor-link" href="#Set-Operations">&#182;</a></h2>
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Assume we have two sets <code>A</code> and <code>B</code>. We have the following set operations in python,</p>
+<ul>
+<li><code>A | B</code> returns the union.</li>
+</ul>
+<p><img src="https://www.linuxtopia.org/online_books/programming_books/python_programming/images/p2c6-union.png" alt=""></p>
+<ul>
+<li><code>A &amp; B</code> returns the intersection.</li>
+</ul>
+<p><img src="https://www.linuxtopia.org/online_books/programming_books/python_programming/images/p2c6-intersection.png" alt=""></p>
+<ul>
+<li><code>A - B</code> returns the difference.</li>
+</ul>
+<p><img src="https://www.linuxtopia.org/online_books/programming_books/python_programming/images/p2c6-difference.png" alt=""></p>
+<ul>
+<li><code>A ^ B</code> returns the symmetric difference.</li>
+</ul>
+<p><img src="https://www.linuxtopia.org/online_books/programming_books/python_programming/images/p2c6-symmdiff.png" alt=""></p>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+
+</div>
 </div>
 </body>
 
