@@ -1,6 +1,6 @@
 ---
 title:  'Python Bitwise Operators'
-date:   2022-01-08
+date:   2022-04-12
 permalink: /posts/2022/04/python-bitwise-operator/
 tags:
   - python
