@@ -2,7 +2,7 @@
 
 ## Publication Citation Style
 
-I am using Vancouver style publication citations with the DOI attached to the end of the string. I am removing the month and day of publication and only keeping the year.
+I am using Vancouver style publication citations with the DOI attached to the end of the string.
 
 
 
