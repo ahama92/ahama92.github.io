@@ -13,16 +13,16 @@ redirect_from:
 
 Education
 ======
-* B.Sc. in Aerospace Engineering, K. N. Toosi University of Technology, 2014
-* M.Sc. in Aerospace Engineering, Sharif University of Technology, 2016
 * Ph.D. in Mechanical Engineering, The University of British Columbia, 2023 (expected)
+* M.Sc. in Aerospace Engineering, Sharif University of Technology, 2016
+* B.Sc. in Aerospace Engineering, K. N. Toosi University of Technology, 2014
 
 Work experience
 ======
 * Sep 2019 - Present: Research Assistant
   * The University of British Columbia
   * Duties included:
-	* Developed object-oriented software for stability analysis and improvement of different computational methods using C++, Python, and Jenkins.
+	* Developed object-oriented software for stability analysis and improvement of different computational methods using C++ and Python.
 	* Created a framework for eigenanalysis of the solution Jacobian and mesh optimization using PETSc and SLEPc, enabling current solvers to achieve stable and more reliable results.
   * Supervisor: [Prof. Carl Ollivier-Gooch](https://mech.ubc.ca/carl-ollivier-gooch/)
   
