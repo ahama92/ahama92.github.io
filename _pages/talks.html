@@ -5,9 +5,9 @@ permalink: /talks/
 author_profile: true
 ---
 
+{% if false %}
 <div class="middle"><h1></h1><h1>&#128679; Under Construction &#128679;</h1></div> <!-- AHAMA I am adding this so that I can remove it later. Do not forget to remove the same comment from CV section. -->
-
-{% if false %} <!-- AHAMA I am adding this so that I can remove it later. Do not forget to remove the same comment from CV section. -->
+{% endif %}
 
 {% if site.talkmap_link == true %}
 
@@ -18,5 +18,3 @@ author_profile: true
 {% for post in site.talks reversed %}
   {% include archive-single-talk.html %}
 {% endfor %}
-
-{% endif %} <!-- AHAMA I am adding this so that I can remove it later. Do not forget to remove the same comment from CV section. -->
