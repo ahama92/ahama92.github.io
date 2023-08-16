@@ -10,8 +10,8 @@ var addressPoints = [
     -76.3452057
   ],
   [
-    "Moffett Field, California, United States",
-    37.41129325,
-    -122.05416980310586
+    "Mountain View, California, United States",
+    37.3893889,
+    -122.0832101
   ]
 ];
