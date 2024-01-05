@@ -11,7 +11,12 @@ var addressPoints = [
   ],
   [
     "Moffett Field, California, United States",
-    37.41129325,
-    -122.05416980310586
+    37.41139495,
+    -122.05683718624664
+  ],
+  [
+    "Orlando, Florida, United States",
+    28.5421109,
+    -81.3790304
   ]
 ];
