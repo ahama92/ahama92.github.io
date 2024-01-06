@@ -12,4 +12,4 @@ My name is Mohammad Zandsalimy ([IPA](https://en.wikipedia.org/wiki/Internationa
 
 I am a Computational Scientist with a Ph.D. in Mechanical Engineering and 10+ years of programming experience in C++, Python, and MATLAB. I am proficient in computational methods in data science, optimization applications, and applied mathematics. My main area of focus is Computational Fluid Dynamics and Machine Learning. For more details of my work please visit the [Projects](https://ahama92.github.io/year-archive/) and [Publications](https://ahama92.github.io/publications/).
 
-I also do digital art on social media with more than 1 million subscribers on YouTube and more than 1 million followers on other websites.
+I also do digital art, posting my work on social media with more than 1 million subscribers on YouTube and more than 1 million followers on other websites.
