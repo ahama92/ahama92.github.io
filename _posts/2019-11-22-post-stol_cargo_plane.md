@@ -9,7 +9,7 @@ tags:
   - design
 ---
 
-## BAE-4 a Short Take-Off and Landing Cargo Airplane
+## BAE-4 STOL Cargo Plane
 
 In this project, I design the wing for a cargo aircraft with propeller engine. The wing is optimized for a specific task; medium length runway, short range, and fast climb rate. I employ a rectangular wing design with NACA-23015 airfoil considering the practicality of manufacturing, cost reduction, and maintenance. The wing configuration and flight condition are designed separately for takeoff, climb, and cruise phases. Aerodynamic analyses is conducted using XFLR5 and MATLAB. Furthermore, vortex panel method is used for 2D airfoil and 3D wing analyses.
 
